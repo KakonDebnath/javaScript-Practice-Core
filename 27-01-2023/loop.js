@@ -21,8 +21,13 @@ for (var i = 1; i<=20; i= i+2){
     console.log(i);
 } */
 
-var players = ["liton", "sakib", "miraz", "bijoy", "santo", "musfiq", "mustafizur"];
-var player; 
-for (i = 0; i < players.length; i++){
-    console.log(player = players[i] );
-}
+// var players = ["liton", "sakib", "miraz", "bijoy", "santo", "musfiq", "mustafizur"];
+// var player; 
+// for (i = 0; i < players.length; i++){
+//     console.log(player = players[i] );
+// }
+
+
+var i = 0;
+for (i=0; i<5; i++){};
+console.log(i);
