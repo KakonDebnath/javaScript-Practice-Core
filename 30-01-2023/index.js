@@ -30,7 +30,7 @@ var myAvgNumber = make_avg( 10, 20, 30);
 console.log(myAvgNumber); 
 */
 
-// Problem-3
+/* // Problem-3
 // Write a function called make_avg() Which will take an array of integer and the size of the array and return the average of those value
 
 var number = [20, 10, 40, 30];
@@ -49,6 +49,22 @@ function make_avg(numbers, len) {
       console.log("Your Average Marks is: " + avg);
 }
 // Calling function by passing array and array length.
-make_avg(number, len); // entire array passed by reference.
+make_avg(number, len); // entire array passed by reference. */
 
+// Problem-4 
+// Write A function called odd_even() Which take an integer value and tells whether this Value is even or odd. You need to do it in 4 ways
+// 1. Has Return + Has Parameter
+// 2. no Return + Has Parameter
+
+function odd_even (n){
+      var number = n;
+      if(number % 2 === 0){
+            console.log(number + ": is a Even Number");
+
+      }else{
+            console.log(number + ": is a Odd Number");
+      }
+}
+
+odd_even(57);
 
