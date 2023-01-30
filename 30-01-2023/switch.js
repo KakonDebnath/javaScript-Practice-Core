@@ -1,3 +1,4 @@
+/* 
 let day = 5;
 
 switch (day) {
@@ -29,3 +30,20 @@ switch (day) {
 }
 
 console.log(day);
+*/
+
+var number = 1;
+
+switch (number % 2){
+      case 0 :
+      console.log("It's  A Even Number");
+      break;
+      case 1 : 
+      console.log("It's  A Odd Number");
+      break;
+      default: 
+      console.log("Not Found");
+      break;
+}
+
+
