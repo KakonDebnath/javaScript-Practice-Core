@@ -1,31 +1,31 @@
-let a = "";
+let day = 5;
 
-switch (a) {
+switch (day) {
       case 1:
-            a = 'Today Is Saturday';
+            day = 'Today Is Saturday';
             break;
       case 2:
-            a = 'Today Is Sunday';
+            day = 'Today Is Sunday';
             break;
       case 3:
-            a = 'Today Is Monday';
+            day = 'Today Is Monday';
             break;
       case 4:
-            a = 'Today Is Tuesday';
+            day = 'Today Is Tuesday';
             break;
       case 5:
-            a = 'Today Is Wednesday';
+            day = 'Today Is Wednesday';
             break;
       case 6:
-            a = 'Today Is Thursday';
+            day = 'Today Is Thursday';
             break;
       case 7:
-            a = 'Today Is Friday';
+            day = 'Today Is Friday';
             break;
 
       default:
-            a = 'not found';
+            day = 'not found';
             break;
 }
 
-console.log(a);
+console.log(day);
