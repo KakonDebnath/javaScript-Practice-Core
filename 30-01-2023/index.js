@@ -53,9 +53,30 @@ make_avg(number, len); // entire array passed by reference. */
 
 // Problem-4 
 // Write A function called odd_even() Which take an integer value and tells whether this Value is even or odd. You need to do it in 4 ways
-// 1. Has Return + Has Parameter
-// 2. no Return + Has Parameter
 
+
+// if - else condition
+// 1. Has Return + Has Parameter
+
+/* 
+function odd_even (n){
+      var number = n;
+      if(number % 2 === 0){
+            return number + ": is a Even Number";
+
+      }else{
+            return number + ": is a Odd Number";
+      }
+}
+
+var returnValue = odd_even(100);
+console.log(returnValue); 
+
+*/
+
+
+// 2. no Return + Has Parameter
+/* 
 function odd_even (n){
       var number = n;
       if(number % 2 === 0){
@@ -66,5 +87,6 @@ function odd_even (n){
       }
 }
 
-odd_even(57);
+odd_even(57); 
+*/
 
