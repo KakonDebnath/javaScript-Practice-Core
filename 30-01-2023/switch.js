@@ -32,18 +32,24 @@ switch (day) {
 console.log(day);
 */
 
-var number = 1;
+/* // Has Parameter No Return
+var number = 15;
 
-switch (number % 2){
-      case 0 :
-      console.log("It's  A Even Number");
-      break;
-      case 1 : 
-      console.log("It's  A Odd Number");
-      break;
-      default: 
-      console.log("Not Found");
-      break;
+function odd_even(number){
+      switch (number % 2){
+            case 0 :
+            console.log("It's  A Even Number");
+            break;
+            case 1 : 
+            console.log("It's  A Odd Number");
+            break;
+            default: 
+            console.log("Not Found");
+            break;
+      }
 }
+odd_even(number);
+ */
+
 
 
