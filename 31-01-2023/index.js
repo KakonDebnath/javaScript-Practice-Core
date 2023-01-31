@@ -40,17 +40,37 @@ let numbers = [10, 20, 30, 40, 50, 60, 90];
 let avgNumber = avg(numbers);
  */
 
+/* 
 // Problem- 2
-// Print odd Number sum from an array
+// Print Even Number sum from an array
 
-const myArray = [10, 10, 25, 24, 60, 87, 42];
-
-function oddNumber(myArray){
-      let 
+function getEvenNumber(array) {
+      let arrayLength = array.length;
+      let evenNumber = [];
+      for (let i = 0; i < arrayLength; i++) {
+            let number = array[i];
+            if (number % 2 === 0) {
+                  evenNumber.push(number);
+            }
+      }
+      return evenNumber;
 }
+// let allEvenNumber = getEvenNumber(myArray);
 
-oddNumber(myArray);
+function evenNumberSum(array) {
+      let allEvenNumber = getEvenNumber(array);
+      let sumResult = 0;
+      // console.log(allEvenNumber);
+      for (let i = 0; i < allEvenNumber.length; i++) {
+            sumResult += allEvenNumber[i];
+      }
+      return sumResult;
+      
+}
+// console.log(allEvenNumber);
 
-
-
+const myArray = [10, 15, 25, 24, 60, 87, 42, 20, 4];
+let mySum = evenNumberSum(myArray);
+console.log(mySum);
+ */
 
