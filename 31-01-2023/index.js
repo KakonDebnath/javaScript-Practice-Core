@@ -17,7 +17,11 @@ console.log(myOddNumber);
  */
 
 
-/* function add(numbers) {
+/*
+// Practice-1 
+// print Avg Number from an Array
+
+function add(numbers) {
       let result = 0;
       for (let i = 0; i < numbers.length; i++) {
             result += numbers[i];
@@ -35,6 +39,18 @@ function avg(numbers) {
 let numbers = [10, 20, 30, 40, 50, 60, 90];
 let avgNumber = avg(numbers);
  */
+
+// Problem- 2
+// Print odd Number sum from an array
+
+const myArray = [10, 10, 25, 24, 60, 87, 42];
+
+function oddNumber(myArray){
+      let 
+}
+
+oddNumber(myArray);
+
 
 
 
