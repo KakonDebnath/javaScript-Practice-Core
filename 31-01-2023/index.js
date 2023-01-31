@@ -40,8 +40,7 @@ let numbers = [10, 20, 30, 40, 50, 60, 90];
 let avgNumber = avg(numbers);
  */
 
-/* 
-// Problem- 2
+/* // Problem- 2
 // Print Even Number sum from an array
 
 function getEvenNumber(array) {
@@ -69,7 +68,7 @@ function evenNumberSum(array) {
 }
 // console.log(allEvenNumber);
 
-const myArray = [10, 15, 25, 24, 60, 87, 42, 20, 4];
+const myArray = [10, 20, 30, 45, 40, 65, 85, 52];
 let mySum = evenNumberSum(myArray);
 console.log(mySum);
  */
