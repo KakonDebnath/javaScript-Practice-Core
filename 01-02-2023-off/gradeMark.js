@@ -9,19 +9,19 @@ function findGrade(marks) {
     //write your code here
     //don't forget to write return
     let grade = "";
-    if (marks >= 80 ){
+    if (marks >= 80 && marks <= 100 ){
         grade = "A";
         return grade;
     }
-    else if(marks <= 60){
+    else if(marks >= 60 && marks < 80 ){
         grade = "B";
         return grade;
     }
-    else if(marks <= 50){
+    else if(marks >= 50 && marks < 60 ){
         grade = "C";
         return grade;
     }
-    else if(marks <= 40){
+    else if(marks >= 40 && marks < 50 ){
         grade = "D";
         return grade;
     }
@@ -30,6 +30,6 @@ function findGrade(marks) {
         return grade;
     }
 }
-let marks = 50;
+let marks = 100;
 const gradeMark = findGrade(marks);
 console.log(gradeMark);
