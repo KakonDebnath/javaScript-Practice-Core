@@ -13,7 +13,7 @@
 //     }
 // }
 
-for (let i = 1; i <= 10 ; i++){
+/* for (let i = 1; i <= 10 ; i++){
     // println(i);
     table(i);
 }
@@ -26,4 +26,21 @@ function table (n){
         var row = n + " * " + i + " = " + n * i
         console.log(row);
     }
+}
+ */
+
+// Print the first 10 Fibonacci numbers without recursion
+
+var f0 = 0;
+var fibonacci = f0;
+
+var f1 = 2;
+var fibonacci = f1;
+
+for (var i = 2; i < 10; i++) {
+    var fi = f1 + f0;
+    var fibonacci = fi;
+
+    f0 = f1;
+    f1 = fi;
 }
