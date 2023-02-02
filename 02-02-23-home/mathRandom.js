@@ -13,4 +13,3 @@ function getRandomInt(max) {
   
   console.log(Math.random());
   // Expected output: a number from 0 to <1
-  
