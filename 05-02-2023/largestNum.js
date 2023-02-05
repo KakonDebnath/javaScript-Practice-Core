@@ -18,7 +18,7 @@ console.log(result);
 */
 
 // array এর ছোট সংখ্যা নির্নয়
-function getPositiveNumber(numbers) {
+function getNegativeNumber(numbers) {
     let lowestNumber = numbers[0];
     for (let i = 0; i < numbers.length; i++) {
         if (lowestNumber > numbers[i] ) {
@@ -28,5 +28,5 @@ function getPositiveNumber(numbers) {
     return lowestNumber;
 }
 const numbers = [-1, 2, -3, 4, 5, 6, -7, 8, -9, 10, 21];
-const result = getPositiveNumber(numbers);
+const result = getNegativeNumber(numbers);
 console.log(result);

@@ -1,13 +1,11 @@
-// positive Number 
-
 function getNegativeNumber(numbers) {
-    let positiveNumber = 0;
+    let negativeNumber = 0;
     for (let i = 0; i < numbers.length; i++) {
-        if (numbers[i] > 0) {
-            positiveNumber++;
+        if (numbers[i] < 0) {
+            negativeNumber++;
         }
     }
-    return positiveNumber;
+    return negativeNumber;
 }
 const numbers = [-1, 2, -3, 4, 5, 6, -7, 8, -9, 10, 21];
 const result = getNegativeNumber(numbers);
