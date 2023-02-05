@@ -2,7 +2,7 @@
 
 
 
-// array এর বড় সংখ্যা নির্নয়
+/* // array এর বড় সংখ্যা নির্নয়
 function getLargestNumber(numbers) {
     let largestNumber = numbers[0];
     for (let i = 0; i < numbers.length; i++) {
@@ -12,7 +12,21 @@ function getLargestNumber(numbers) {
     }
     return largestNumber;
 }
-
 const numbers = [-1, 2, -3, 4, 5, 6, -7, 8, -9, 10, 21];
 const result = getLargestNumber(numbers);
+console.log(result);
+*/
+
+// array এর ছোট সংখ্যা নির্নয়
+function getLowestNumber(numbers) {
+    let lowestNumber = numbers[0];
+    for (let i = 0; i < numbers.length; i++) {
+        if (lowestNumber > numbers[i] ) {
+            lowestNumber = numbers[i];
+        }
+    }
+    return lowestNumber;
+}
+const numbers = [-1, 2, -3, 4, 5, 6, -7, 8, -9, 10, 21];
+const result = getLowestNumber(numbers);
 console.log(result);
